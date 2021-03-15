@@ -5,7 +5,7 @@ layout: default
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.list_title | default: "About" }}</title>
+    <title>Groups</title>
     <meta name="description" content="Open source is a driving force behind enterprise IT innovation, operational effectiveness and business value creation.">
 
 
@@ -46,12 +46,10 @@ layout: default
           </div>
           <div class="navbar-collapse collapse" id="navbar">
             <ul class="nav navbar-nav">
-                <li><a class="page-link" href="/" style="color: #000">About</a></li>
+                <li><a class="page-link" href="/openmanufacturingplatform.github.io/" style="color: #000">About</a></li>
                   
                     <li><a class="page-link" href="https://open-manufacturing.org" target="_blank" style="color: #000">Website</a></li>
-                    {%- for post in site.posts -%}
-                    <li><a class="page-link" href="{{ post.url | relative_url }}" style="color: #000">Groups</a></li>
-                    {%- endfor -%}
+                    <li><a class="page-link" href="/openmanufacturingplatform.github.io/groups" style="color: #000">Groups</a></li>
                     <li><a class="page-link" target="_blank" href="https://github.com/OpenManufacturingPlatform"><i class="fab fa-github-alt" style="color: #000"></i></a></li>
 
             </ul>
